@@ -65,5 +65,14 @@ video is there in the repo
 please check it.
 ![cs_01](https://github.com/user-attachments/assets/0958be93-576b-48ad-8bf4-980e7c0bd348)
 
+==============================================================
+Contributing
+Contributions are welcome! To contribute:
+Fork the repository.
+Create a new branch (git checkout -b feature-name).
+Make your changes and commit (git commit -m "Add feature").
+Push to your fork (git push origin feature-name).
+Open a pull request.
+--------------------------------------------------------
 If you have any suggestions or feedback, feel free to reach out! 
 LinkedIn- http://www.linkedin.com/in/sakshi-dhananjay-kamble-4444ba219
