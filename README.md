@@ -1,6 +1,36 @@
 # PRODIGY_CS_01
 Task1 - IMPLEMENT CAESAR CIPHER( Submission of Prodigy InfoTech Internship[CyberSecurity Track])
 
+===============================================
+# Caesar Cipher Dashboard 🔐
+
+An interactive web application that allows users to encrypt and decrypt text using the classic Caesar cipher technique.
+
+---
+
+## 📖 Project Overview
+The **Caesar Cipher Dashboard** provides an intuitive interface where users can:
+- Encrypt plaintext into cipher text.
+- Decrypt cipher text back into readable plaintext.
+- Choose custom shift values for the cipher.
+
+This project was built as a fun way to practice both web development and basic cryptography concepts.
+
+---
+
+## 🚀 Features
+- Simple and clean UI for easy usage.
+- Input any text and select your shift key.
+- Instant encryption and decryption results.
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** HTML5, CSS3, Bootstrap
+- **Backend:** Python (Flask Framework)
+
+- ------------------------------------------------------------------------------------------
+
 caesar_cipher_project/
 │
 ├── app.py
@@ -20,7 +50,7 @@ caesar_cipher_project/
 └── README.md
 
 
----
+--------------------------------------------------------------------------------
 
 If you have any suggestions or feedback, feel free to reach out!  
 
