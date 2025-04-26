@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caesar Cipher Dashboard</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Caesar Cipher Dashboard</h1>
+    <form method="POST">
+      <textarea name="message" placeholder="Enter your message..." required>{{ request.form.message }}</textarea>
+      <input type="number" name="shift" placeholder="Shift (0-25)" min="0" max="25" required value="{{ request.form.shift or '' }}" />
+      <div class="buttons">
+        <button type="submit" name="action" value="Encrypt">Encrypt</button>
+        <button type="submit" name="action" value="Decrypt">Decrypt</button>
+      </div>
+    </form>
+    {% if output %}
+    <div class="result">
+      <h3>Result:</h3>
+      <p>{{ output | e }}</p>
+    </div>
+    {% endif %}
+
+    <section class="resources">
+      <h2>Learn More</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sMOZf4GN3oc" frameborder="0" allowfullscreen></iframe>
+      <p><a href="https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/" target="_blank">Read Article on GeeksforGeeks</a></p>
+    </section>
+  </div>
+  <script src="/static/js/script.js"></script>
+</body>
+</html>
